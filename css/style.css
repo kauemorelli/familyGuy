@@ -133,6 +133,7 @@
 }
 
 /*EYES*/
+/*EYE- LEFT*/
 .baby .head .eye-left {
 	top: 34px;
 	left: 38px;
@@ -158,7 +159,7 @@
 	border-radius: 50%;
 	background: #000;
 }
-.baby .head .eye-left .eye-left-palp {
+.baby .head .eye-left .eye-left-palp-t {
 	top: -47px;
 	left: 0px;
 	width: 45px;
@@ -172,33 +173,74 @@
 	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	
-    -webkit-animation-name: babyEyeLeftpalp;
+    -webkit-animation-name: babyEyeLeftpalpT;
     -webkit-animation-duration: 8s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
-    animation-name: babyEyeLeftpalp;
+    animation-name: babyEyeLeftpalpT;
     animation-duration: 8s;
     animation-timing-function: linear;
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-play-state: running;
 }
-@keyframes babyEyeLeftpalp {
+@keyframes babyEyeLeftpalpT {
 	0% {top: -47px;}
 	2% {top: -34px;}
 	6% {top: -47px;}
 	100% {top: -47px;}
 }
 
-@-webkit-keyframes babyEyeLeftpalp {
+@-webkit-keyframes babyEyeLeftpalpT {
 	0% {top: -47px;}
 	2% {top: -34px;}
 	6% {top: -47px;}
 	100% {top: -47px;}
 }
+.baby .head .eye-left .eye-left-palp-b {
+	top: 47px;
+	left: 0px;
+	width: 45px;
+	height: 45px;
+	background:#ffe5c1;
+	border-top: 2px solid #333;
+	-moz-border-radius: 0 0 50% 50%;
+	-webkit-border-radius: 0 0 50% 50%;
+	border-radius: 0 0 50% 50%;
+	-webkit-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
+	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
+	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
+	
+    -webkit-animation-name: babyEyeLeftpalpB;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: babyEyeLeftpalpB;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes babyEyeLeftpalpB {
+	0% {top: 47px;}
+	2% {top: 20px;}
+	6% {top: 47px;}
+	100% {top: 47px;}
+}
 
+@-webkit-keyframes babyEyeLeftpalpB {
+	0% {top: 47px;}
+	2% {top: 20px;}
+	6% {top: 47px;}
+	100% {top: 47px;}
+}
+
+/*EYE - RIGHT*/
 .baby .head .eye-right {
 	top: 31px;
 	left: 151px;
@@ -224,7 +266,7 @@
 	border-radius: 50%;
 	background: #000;
 }
-.baby .head .eye-right .eye-right-palp {
+.baby .head .eye-right .eye-right-palp-t {
 	top: -47px;
 	left: 0px;
 	width: 45px;
@@ -238,28 +280,89 @@
 	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	
-    -webkit-animation-name: babyEyeRightpalp;
+    -webkit-animation-name: babyEyeRightpalpT;
     -webkit-animation-duration: 8s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
-    animation-name: babyEyeRightpalp;
+    animation-name: babyEyeRightpalpT;
     animation-duration: 8s;
     animation-timing-function: linear;
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-play-state: running;
 }
-@keyframes babyEyeRightpalp {
+@keyframes babyEyeRightpalpT {
 	0% {top: -47px;}
 	2% {top: -34px;}
 	6% {top: -47px;}
 	100% {top: -47px;}
 }
-@-webkit-keyframes babyEyeRightpalp {
+@-webkit-keyframes babyEyeRightpalpT {
 	0% {top: -47px;}
 	2% {top: -34px;}
 	6% {top: -47px;}
 	100% {top: -47px;}
+}
+
+.baby .head .eye-right .eye-right-palp-b {
+	top: 47px;
+	left: 0px;
+	width: 45px;
+	height: 45px;
+	background:#ffe5c1;
+	border-top: 2px solid #333;
+	-moz-border-radius: 0 0 50% 50%;
+	-webkit-border-radius: 0 0 50% 50%;
+	border-radius: 0 0 50% 50%;
+	-webkit-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
+	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
+	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
+	
+    -webkit-animation-name: babyEyeRightpalpB;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: babyEyeRightpalpB;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes babyEyeRightpalpB {
+	0% {top: 47px;}
+	2% {top: 20px;}
+	6% {top: 47px;}
+	100% {top: 47px;}
+}
+
+@-webkit-keyframes babyEyeRightpalpB {
+	0% {top: 47px;}
+	2% {top: 20px;}
+	6% {top: 47px;}
+	100% {top: 47px;}
+}
+
+/*MALF*/
+.malf .malf-top {
+	top:77px;
+	left:104px;
+	width:31px;
+	height:10px;
+	border:2px solid #000;
+	border-width: 0 2px 0 0;
+}
+.malf .malf-main {
+	top:87px;
+	left:102px;
+	width:31px;
+	height:20px;
+	border:2px solid #000;
+	-moz-border-radius: 50% 0 0 0;
+	-webkit-border-radius: 50% 0 0 0;
+	border-radius: 50% 0 0 0;
 }
