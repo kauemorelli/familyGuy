@@ -172,7 +172,7 @@
 	-webkit-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
-	
+
     -webkit-animation-name: babyEyeLeftpalpT;
     -webkit-animation-duration: 8s;
     -webkit-animation-timing-function: linear;
@@ -212,7 +212,7 @@
 	-webkit-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
-	
+
     -webkit-animation-name: babyEyeLeftpalpB;
     -webkit-animation-duration: 8s;
     -webkit-animation-timing-function: linear;
@@ -279,7 +279,7 @@
 	-webkit-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
-	
+
     -webkit-animation-name: babyEyeRightpalpT;
     -webkit-animation-duration: 8s;
     -webkit-animation-timing-function: linear;
@@ -319,7 +319,7 @@
 	-webkit-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	-moz-box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
 	box-shadow: inset 11px 33px 0px -1px rgba(240, 192, 152, 1);
-	
+
     -webkit-animation-name: babyEyeRightpalpB;
     -webkit-animation-duration: 8s;
     -webkit-animation-timing-function: linear;
@@ -349,20 +349,26 @@
 
 /*MALF*/
 .malf .malf-top {
-	top:77px;
-	left:104px;
-	width:31px;
-	height:10px;
-	border:2px solid #000;
+	top: 92px;
+	left: 106px;
+	width: 31px;
+	height: 8px;
+	border: 2px solid #333;
 	border-width: 0 2px 0 0;
+	transform: rotate(-42deg);
+	-ms-transform: rotate(-42deg); /* IE 9 */
+	-webkit-transform: rotate(-42deg); /* Chrome, Safari, Opera */
 }
 .malf .malf-main {
 	top:87px;
 	left:102px;
-	width:31px;
+	width:35px;
 	height:20px;
 	border:2px solid #000;
+	border-bottom: 0;
+	border-right: 0;
+	border-left: 0;
+	border-radius: 50% 0 0 0;
 	-moz-border-radius: 50% 0 0 0;
 	-webkit-border-radius: 50% 0 0 0;
-	border-radius: 50% 0 0 0;
 }
