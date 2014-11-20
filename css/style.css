@@ -149,6 +149,18 @@
 	box-shadow: inset 9px 3px 0px -1px rgba(208, 236, 251, 1);
 	overflow: hidden;
 }
+.baby .head .eye-left-eyebrow {
+	width: 40px;
+	height: 5px;
+	top: 32px;
+	left: 44px;
+	background: #ffe5c1;
+	border-bottom: 2px solid #333;
+	transform: rotate(6deg);
+	-ms-transform: rotate(6deg); /* IE 9 */
+	-webkit-transform: rotate(6deg);
+	z-index: 2;
+}
 .baby .head .eye-left .eye-left-pupil {
 	top: 12px;
 	left: 17px;
@@ -250,11 +262,27 @@
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: 2px solid #333;
-	background: #ffd9d9;
-	-webkit-box-shadow: inset 9px 3px 0px -1px rgba(255, 191, 191, 1);
+	/*background: #ffd9d9;*/
+	background: #ffffff;
+	/*-webkit-box-shadow: inset 9px 3px 0px -1px rgba(255, 191, 191, 1);
 	-moz-box-shadow: inset 9px 3px 0px -1px rgba(255, 191, 191, 1);
-	box-shadow: inset 9px 3px 0px -1px rgba(255, 191, 191, 1);
+	box-shadow: inset 9px 3px 0px -1px rgba(255, 191, 191, 1);*/
+	-webkit-box-shadow: inset 9px 3px 0px -1px rgba(208, 236, 251, 1);
+	-moz-box-shadow: inset 9px 3px 0px -1px rgba(208, 236, 251, 1);
+	box-shadow: inset 9px 3px 0px -1px rgba(208, 236, 251, 1);
 	overflow: hidden;
+}
+.baby .head .eye-right-eyebrow {
+	width: 38px;
+	height: 5px;
+	top: 30px;
+	left: 152px;
+	background: #ffe5c1;
+	border-bottom: 2px solid #333;
+	transform: rotate(-11deg);
+	-ms-transform: rotate(-11deg); /* IE 9 */
+	-webkit-transform: rotate(-11deg);
+	z-index: 2;
 }
 .baby .head .eye-right .eye-right-pupil {
 	top: 12px;
@@ -371,4 +399,16 @@
 	border-radius: 50% 0 0 0;
 	-moz-border-radius: 50% 0 0 0;
 	-webkit-border-radius: 50% 0 0 0;
+}
+.malf .malf-bottom {
+	top: 87px;
+	left: 121px;
+	width: 11px;
+	height: 5px;
+	border: 2px solid #333;
+	border-width: 2px 0 0 0;
+	border-radius: 100%;
+	transform: rotate(132deg);
+	-ms-transform: rotate(132deg); /* IE 9 */
+	-webkit-transform: rotate(132deg);
 }
