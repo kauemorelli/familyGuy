@@ -43,6 +43,64 @@
 	z-index: 2;
 }
 
+/*Hair*/
+.hair .hair-one {
+	width: 6px;
+	height: 12px;
+	top: 47px;
+	left: 1px;
+	transform: rotate(-91deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 0 0;
+	-moz-border-radius: 67% 77% 0 0;
+	-webkit-border-radius: 67% 77% 70% 0;
+	z-index: 10;
+}
+.hair .hair-two {
+	width: 6px;
+	height: 12px;
+	top: 28px;
+	left: 13px;
+	transform: rotate(-73deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 0 0;
+	-moz-border-radius: 67% 77% 0 0;
+	-webkit-border-radius: 67% 77% 70% 0;
+	z-index: 10;
+}
+.hair .hair-three {
+	width: 6px;
+	height: 13px;
+	top: 9px;
+	left: 38px;
+	transform: rotate(-70deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 73% 0;
+	-moz-border-radius: 67% 77% 73% 0;
+	-webkit-border-radius: 67% 77% 73% 0;
+	z-index: 10;
+}
+.hair .hair-four {
+	width: 6px;
+	height: 15px;
+	top: -3px;
+	left: 66px;
+	transform: rotate(-65deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 73% 0;
+	-moz-border-radius: 67% 77% 73% 0;
+	-webkit-border-radius: 67% 77% 73% 0;
+	z-index: 10;
+}
+
 /*Ear Left*/
 .baby .head .ear_left {
 	box-sizing: content-box;
