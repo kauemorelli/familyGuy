@@ -61,8 +61,8 @@
 .hair .hair-two {
 	width: 6px;
 	height: 12px;
-	top: 28px;
-	left: 13px;
+	top: 26px;
+	left: 15px;
 	transform: rotate(-73deg);
 	border: 2px solid #000;
 	border-bottom: 0;
@@ -92,6 +92,76 @@
 	top: -3px;
 	left: 66px;
 	transform: rotate(-65deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 73% 0;
+	-moz-border-radius: 67% 77% 73% 0;
+	-webkit-border-radius: 67% 77% 73% 0;
+	z-index: 10;
+}
+.hair .hair-five {
+	width: 6px;
+	height: 15px;
+	top: -8px;
+	left: 97px;
+	transform: rotate(-58deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 73% 0;
+	-moz-border-radius: 67% 77% 73% 0;
+	-webkit-border-radius: 67% 77% 73% 0;
+	z-index: 10;
+}
+.hair .hair-six {
+	width: 6px;
+	height: 15px;
+	top: -8px;
+	left: 127px;
+	transform: rotate(-54deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 73% 0;
+	-moz-border-radius: 67% 77% 73% 0;
+	-webkit-border-radius: 67% 77% 73% 0;
+	z-index: 10;
+}
+.hair .hair-seven {
+	width: 6px;
+	height: 12px;
+	top: 0;
+	left: 158px;
+	transform: rotate(-36deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 73% 0;
+	-moz-border-radius: 67% 77% 73% 0;
+	-webkit-border-radius: 67% 77% 73% 0;
+	z-index: 10;
+}
+.hair .hair-eight {
+	width: 5px;
+	height: 10px;
+	top: 14px;
+	left: 187px;
+	transform: rotate(-20deg);
+	border: 2px solid #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 67% 77% 73% 0;
+	-moz-border-radius: 67% 77% 73% 0;
+	-webkit-border-radius: 67% 77% 73% 0;
+	z-index: 10;
+}
+.hair .hair-nine {
+	width: 5px;
+	height: 10px;
+	top: 39px;
+	left: 214px;
+	transform: rotate(6deg);
 	border: 2px solid #000;
 	border-bottom: 0;
 	border-left: 0;
